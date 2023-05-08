@@ -1,0 +1,79 @@
+aside{
+    margin: 20px;
+    flex: 30%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 30px 5px rgb(172, 171, 171);
+}
+aside > .imagem{
+    height: 220px;
+    background-image: url(imagem/download.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 30px 100px;
+    grid-template-rows: 30px 30px 30px 30px;
+    align-items: center;
+}
+
+
+.Skill > .skillsgrafico{
+    width: 100%;
+    border: 1px solid;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.skillsgrafico > .preencimento{
+    width: 90%;
+    background-color: green;
+    border-radius: 10px;
+}
+.skillsgrafico > .preencimento1{
+    width: 90%;
+    background-color: green;
+    border-radius: 10px;
+}
+.skillsgrafico > .preencimento2{
+    width: 1.5%;
+    background-color: green;
+    border-radius: 10px;
+}
+.skillsgrafico > .preencimento3{
+    width: 0%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.Skill > .skillsgrafico{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.skillsgrafico > .preencimento4{
+    border: 1px solid;
+    width: 10%;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.skillsgrafico > .preencimento5{
+    border: 1px solid;
+    width: 99%;
+    background-color: green;
+    border-radius: 10px;
+}
+.skillsgrafico > .preencimento6{
+    border: 1px solid;
+    width: 40%;
+    background-color: green;
+    border-radius: 10px;
+}
+.icones{
+    display: grid;
+    grid-template-columns: 30px 40px;
+    align-items: center;
+}

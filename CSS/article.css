@@ -1,0 +1,58 @@
+article{
+    margin: 20px;
+    border: 1px solid;
+    flex: 70%;
+    padding: 10px;
+}
+h5{
+    color: #1D8A1D;
+}
+.pt1, .pt2, .pt3, .pt5, .pt6, .pt7{
+    margin: 0 20px;
+    
+}
+.titu{
+    margin: 10px 5px;
+    display: grid;
+    grid-template-columns: 45px 180px;
+    align-items: center;
+}
+.data{
+    display: grid;
+    grid-template-columns: 30px 60px 60px;
+    align-items: center;
+    margin: 10px 0;
+}
+.data > p{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #1D8A1D;
+}
+.pt2 > .date{
+    display: grid;
+    grid-template-columns: 30px 120px;
+    align-items: center;
+    margin: 10px 0;
+}
+.pt3 > .date{
+    display: grid;
+    grid-template-columns: 30px 120px;
+    align-items: center;
+    margin: 10px 0;
+}
+.colu{
+    flex: 85%;
+    flex-direction: column;
+}
+.PT1{
+    border: 1px solid;
+}
+.PT1 > h5{
+    color: #1D8A1D;
+}
+.date{
+    display: grid;
+    grid-template-columns: 30px 100px;
+    align-items: center;
+    margin: 10px 0;
+}
